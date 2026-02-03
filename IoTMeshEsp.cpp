@@ -7,11 +7,11 @@
 #include <WiFiUdp.h>
 
 // ================= OTA CONFIG =================
-#define OTA_HOSTNAME "IOTMesh-Lobby-ESP"
-#define OTA_PASSWORD "iotmesh@4123"   // password for OTA updates
+#define OTA_HOSTNAME "IMeh-oby-EP"
+#define OTA_PASSWORD "i4123"   // password for OTA updates
 
 // telegram bot token and host
-#define TELEGRAM_BOT_TOKEN "8548360181:AAHRLfV2eVGtTPltHqrxmlKb6NY_0B_J75M"
+#define TELEGRAM_BOT_TOKEN "8543618:ARLfVeVGTPlHqrxlb6NY_0B_J75M"
 #define TELEGRAM_API_HOST "api.telegram.org"
 WiFiClientSecure telegramClient;
 // ====== SERIAL PINS ======
@@ -24,7 +24,7 @@ SoftwareSerial Serial2(RX_PIN, TX_PIN);
 #define WIFI_PASS "44444422"
 
 // ---------------- FIREBASE ----------------
-#define FIREBASE_HOST "iotmesh-4123-default-rtdb.firebaseio.com"
+#define FIREBASE_HOST "ioms-12-ealrt.firseo.com"
 #define FIREBASE_AUTH "test123"
 
 FirebaseData fb;
